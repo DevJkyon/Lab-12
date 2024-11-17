@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const contraseñaCorrecta = "1234";
+        let contraseña;
+
+        do {
+        contraseña = prompt("Ingresa la contraseña:");
+        } while (contraseña !== contraseñaCorrecta);
+        console.log("¡Contraseña correcta!");
+        // Porque siempre ejecuta el código al menos una vez antes de verificar la condición.
+    </script>
+</body>
+</html>
